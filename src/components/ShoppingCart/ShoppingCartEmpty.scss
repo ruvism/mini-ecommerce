@@ -1,0 +1,43 @@
+.shopping-cart-empty{
+    height: 300px;
+    width: 630px;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    &__info{
+        h3{
+            font-weight: bold;
+            font-size: 26px;
+            color: #000000;
+        }
+        &-text{
+            font-weight: normal;
+            font-size: 14px;
+            color: #000000;
+        }
+        &-button{
+            height: 50px;
+            width: 200px;
+            background: #E30000;
+            border-radius: 4px;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 18px;
+            border: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shopping-cart-empty{
+        flex-direction: column;     
+        width: 90%;
+        height: auto;
+        &__info{
+            padding: 30px;
+        }
+    }
+}

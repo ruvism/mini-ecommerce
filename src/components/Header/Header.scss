@@ -1,0 +1,33 @@
+.header{    
+    height: 80px;
+    background-color: #E30000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    &__elements{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        &__logo{
+            height: auto;
+            width: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        &--search{
+            display: flex;
+            justify-content: center;
+            width: 70%;
+        }
+        &--cart{
+            display: flex;
+            justify-content: flex-end;
+            width: 10%;
+        }
+    }
+}

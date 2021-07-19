@@ -1,0 +1,13 @@
+.card{
+    height: 360px;
+    width: 24%;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 15px;
+    @media screen and (max-width: 768px) {
+        width: 48%;  
+        overflow: visible;      
+    }
+}
